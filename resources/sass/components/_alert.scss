@@ -1,0 +1,12 @@
+.alert{
+    width: 30rem;
+    margin: 1rem auto;
+    font-size: 1.2rem;
+    padding: 1.5rem;
+    border-radius: 4px;
+
+    &--green{
+        background-color: $color-green;
+        color: $color-green2;
+    }
+}

@@ -1,0 +1,42 @@
+.login-form{
+    width:100%;
+    max-width: 35rem; 
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: $color-gray-1;
+
+
+    &__heading {    
+        background-color: $color-purple-2;
+        padding: 2rem;
+        color: $color-white;  
+    }
+
+    &__group {
+        position: relative;
+        color: $color-text;
+    }
+
+    &__icon {
+        position: absolute;
+        right: 2.8rem;
+        margin-top: -3.3rem;
+        font-size: 2rem;
+    }
+
+    &__input {
+        display: block;
+        margin: 2rem auto 0 auto;
+        color:inherit;
+        width: 90%;
+        padding: 1.5rem 3rem 1.5rem 2rem;
+        font-family: inherit;
+        border: none;
+        border-radius: 3px;
+        background-color: $color-gray-2;
+
+        &:focus {
+            outline-color: $color-purple-2;
+        }
+    }
+}
